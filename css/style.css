@@ -7,3 +7,9 @@ div.row{
 p#menubar{
 
 }
+h2.traffic_title{
+	font-weight: bold;
+}
+p.traffic_content{
+	font-size: 24px;
+}
