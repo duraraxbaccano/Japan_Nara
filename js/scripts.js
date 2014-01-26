@@ -8,4 +8,9 @@ window.onload = function(){
         }, 1000);
   });
 
+  $("p#menubar").affix({
+  	offset: {
+  		top: $("p#menubar").offset().top
+  	}
+  });
 };

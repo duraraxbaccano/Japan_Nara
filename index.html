@@ -51,7 +51,7 @@
 					<a class="btn btn-default btn-large" href="#" data-target="div.weather">氣候</a>
 					<a class="btn btn-primary btn-large" href="#" data-target="div.traffic">交通</a>
 					<a class="btn btn-success btn-large" href="#" data-target="div.oneday">一日遊</a>
-					<a class="btn btn-info btn-large" href="#">景點</a>
+					<a class="btn btn-info btn-large" href="#" data-target="div.scene">景點</a>
 					<a class="btn btn-warning btn-large" href="#">美食、伴手禮</a>
 					<a class="btn btn-danger btn-large" href="#">注意事項</a>
 				</p>
@@ -440,6 +440,85 @@
 	<div class="row clearfix">
 		<div class="col-md-6 column">
 				<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.tw/maps?f=q&amp;source=s_q&amp;hl=zh-TW&amp;geocode=&amp;q=%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%A5%88%E8%89%AF%E5%B8%82%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF%E9%A7%85&amp;aq=0&amp;oq=%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%A5%88%E8%89%AF%E5%B8%82+%E8%BF%91&amp;sll=34.683705,135.828438&amp;sspn=0.010869,0.021136&amp;brcurrent=3,0x0:0x0,0&amp;ie=UTF8&amp;hq=&amp;hnear=%E6%97%A5%E6%9C%AC+Kintetsunara+Station,+%EF%BC%88%E5%A5%88%E8%89%AF%E7%B8%A3%EF%BC%89&amp;ll=34.68444,135.827415&amp;spn=0.043482,0.084543&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.tw/maps?f=q&amp;source=embed&amp;hl=zh-TW&amp;geocode=&amp;q=%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%A5%88%E8%89%AF%E5%B8%82%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF%E9%A7%85&amp;aq=0&amp;oq=%E6%97%A5%E6%9C%AC%E5%A5%88%E8%89%AF%E7%B8%A3%E5%A5%88%E8%89%AF%E5%B8%82+%E8%BF%91&amp;sll=34.683705,135.828438&amp;sspn=0.010869,0.021136&amp;brcurrent=3,0x0:0x0,0&amp;ie=UTF8&amp;hq=&amp;hnear=%E6%97%A5%E6%9C%AC+Kintetsunara+Station,+%EF%BC%88%E5%A5%88%E8%89%AF%E7%B8%A3%EF%BC%89&amp;ll=34.68444,135.827415&amp;spn=0.043482,0.084543&amp;t=m&amp;z=14" style="color:#0000FF;text-align:left">顯示詳細地圖</a></small>
+		</div>
+		<div class="col-md-6 column">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="http://nara-park.com/img-annai/midokorophoto-sub701-b.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+			      <div class="carousel-caption">
+			      	<h3>若草山</h3>
+			        圖片來源 :　http://nara-park.com/annnai2_7.html
+			      </div>
+			    </div>
+			    <div class="item ">
+			      <img src="http://nara-park.com/img-annai/midokorophoto-sub707-b.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+			      <div class="carousel-caption">
+			      	<h3>若草山 夜景</h3>
+			        圖片來源 :　http://nara-park.com/annnai2_7.html
+			      </div>
+			    </div>
+			    <div class="item ">
+			      <img src="http://nara-park.com/img-annai/midokorophoto-main14-b.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+			      <div class="carousel-caption">
+			      	<h3>奈良國立博物館</h3>
+			        圖片來源 :　http://nara-park.com/annnai2.html
+			      </div>
+			    </div>
+			    <div class="item ">
+			      <img src="http://nara-park.com/img-annai/midokorophoto-main12-b.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+			      <div class="carousel-caption">
+			      	<h3>春日大社</h3>
+			        圖片來源 :　http://nara-park.com/annnai2_12.html
+			      </div>
+			    </div>
+			    <div class="item ">
+			      <img src="http://nara-park.com/img-annai/midokorophoto-main11-b.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+			      <div class="carousel-caption">
+			      	<h3>東大寺</h3>
+			        圖片來源 :　http://nara-park.com/annnai2_11.html
+			      </div>
+			    </div>
+			    <div class="item ">
+			      <img src="http://nara-park.com/img-annai/midokorophoto-main13-b.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
+			      <div class="carousel-caption">
+			      	<h3>興福寺</h3>
+			        圖片來源 :　http://nara-park.com/annnai2_13.html
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix scene">
+		<div class="col-md-12 column">
+			<button type="button" class="btn btn-default btn-lg">
+		  		<span class="glyphicon glyphicon-camera"></span> 景點
+			</button>
+		</div>
+	</div>
+	<div class="row clearfix scene">
+		<div class="col-md-12 column">
+			<h2>奈良公園</h2>
 		</div>
 	</div>
 </div>
